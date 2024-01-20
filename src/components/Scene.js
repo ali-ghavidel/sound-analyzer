@@ -6,7 +6,7 @@ import './scene.css';
 
 const Scene = () => {
     return (
-        <Canvas className='canvas' camera={{position: [0.0,0.0,8.0], fov: 110}}>
+        <Canvas className='canvas' camera={{position: [0.0,0.0,8.0], fov: 115}}>
             <Sphere />
             <axesHelper />
             <OrbitControls />

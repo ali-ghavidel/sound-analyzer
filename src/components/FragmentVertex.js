@@ -21,7 +21,7 @@ void main() {
   vUv = uv;
 
 //   vDisplacement = cnoise3(position + vec3(2.0 * u_time));
-  noise = pnoise3(position + u_time, vec3(10.0));
+  noise = 3.0 * pnoise3(position + u_time, vec3(10.0));
   displacement = noise / 10.0;
 
   vec3 newPosition = position + normal * displacement;
@@ -44,7 +44,7 @@ uniform vec2 u_resolution;
 void main() {
   vec2 st = gl_FragCoord.xy / u_resolution; 
   
-  gl_FragColor = vec4(1.0,1.0,1.0 ,1.0);
+  gl_FragColor = vec4(st.x,st.y,1.0 ,1.0);
 }
 
 
