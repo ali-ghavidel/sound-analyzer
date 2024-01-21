@@ -16,13 +16,14 @@ varying float displacement;
 // Classic Perlin 3D Noise 
 // by Stefan Gustavson
 //
+uniform float u_frequency;
 
 void main() {
   vUv = uv;
 
 //   vDisplacement = cnoise3(position + vec3(2.0 * u_time));
   noise = 3.0 * pnoise3(position + u_time, vec3(10.0));
-  displacement = noise / 10.0;
+  displacement = (u_frequency / 100.0) * (noise / 10.0);
 
   vec3 newPosition = position + normal * displacement;
 
