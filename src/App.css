@@ -11,3 +11,8 @@ html, body , #root , .App {
 .canvas {
   background-color: #20222b;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
