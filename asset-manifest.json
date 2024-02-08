@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sound-analyzer/static/css/main.74016b0e.css",
+    "main.js": "/sound-analyzer/static/js/main.1ec720d3.js",
+    "static/js/787.3c38bf7d.chunk.js": "/sound-analyzer/static/js/787.3c38bf7d.chunk.js",
+    "index.html": "/sound-analyzer/index.html",
+    "main.74016b0e.css.map": "/sound-analyzer/static/css/main.74016b0e.css.map",
+    "main.1ec720d3.js.map": "/sound-analyzer/static/js/main.1ec720d3.js.map",
+    "787.3c38bf7d.chunk.js.map": "/sound-analyzer/static/js/787.3c38bf7d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74016b0e.css",
+    "static/js/main.1ec720d3.js"
+  ]
+}
